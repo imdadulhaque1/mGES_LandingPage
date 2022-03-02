@@ -7,6 +7,12 @@
   background-size: cover;
   padding: 13.875rem 10.375rem;
 }
+
+.body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .banner-into {
   font-size: 57px;
 }
