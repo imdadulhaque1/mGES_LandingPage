@@ -10,6 +10,12 @@ body {
   background-size: cover;
   padding: 13.875rem 10.375rem;
 }
+
+.body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .banner-container-about {
   background-image: url("../img/Header-UI-02.png");
 
