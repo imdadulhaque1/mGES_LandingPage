@@ -6,6 +6,11 @@
   padding: 9em 0;
 }
 
+.bodyHeight {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .coreAreasHeader {
   background-color: #00add7;
   padding: 2rem;
