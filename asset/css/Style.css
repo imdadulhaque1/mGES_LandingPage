@@ -286,7 +286,8 @@ a:link {
   background-color: #fff;
   padding: 50px 30px;
   border-radius: 10px;
-  margin-right: 100px;
+  margin: 2.5rem;
+  /* margin-right: 100px; */
 }
 
 .result-image-contanier {

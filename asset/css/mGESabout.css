@@ -82,6 +82,9 @@
   padding: 0 2rem !important;
   margin-bottom: 1rem;
 }
+.secureEnv {
+  width: 70px;
+}
 
 @media screen and (max-width: 480px) {
   .coreAreaSection {
@@ -97,4 +100,5 @@
     padding-bottom: 0;
     margin: 10px 0;
   }
+
 }

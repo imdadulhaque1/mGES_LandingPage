@@ -20,6 +20,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>mGES Login</title>
   </head>
   <body>
@@ -29,7 +30,7 @@
           class="col-md-6 d-flex justify-content-center align-items-center my-2"
         >
           <div class="p-4 bg-light bgShadow">
-            <form action="">
+            <form action="" class="needs-validation was-validated" novalidate>
               <div class="text-center">
                 <h5 class="my-4 fw-bolder">Registration From</h5>
                 <input
@@ -56,7 +57,7 @@
                   name=""
                   id=""
                 />
-                <select
+                <!-- <select
                   class="inputBorder form-select my-4"
                   aria-label="Default select example"
                 >
@@ -64,15 +65,28 @@
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
-                </select>
+                </select> -->
+
+
+                <div class="input-group">
+                  <input type="tel" class="form-control inputBorder my-4">
+                  <span class="input-group-addon">Tel</span>
+                </div>
+              
+
                 <!-- <input
-                  type="password"
-                  class="form-control inputBorder my-4"
-                  placeholder="Bahrain +973"
+                  type="tel"
+                  id="phone"
+                  required="required"
+                  class="form-control inputBorder inputField my-4"
                   style="font-family: Arial, FontAwesome"
                   name=""
-                  id=""
                 /> -->
+                <!-- placeholder="Bahrain +973" -->
+
+                <div class="invalid-feedback">
+                  You must enter a valid mobile number
+                </div>
 
                 <select
                   class="inputBorder form-select my-4"
@@ -123,5 +137,7 @@
         </div>
       </div>
     </div>
+
+    <script src="./asset/js/register.js"></script>
   </body>
 </html>
