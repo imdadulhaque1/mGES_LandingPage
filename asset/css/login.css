@@ -6,9 +6,9 @@
   min-height: 100vh;
 }
 
-.leftSideContainer {
+/* .leftSideContainer {
   min-height: 100vh;
-}
+} */
 
 .inputBorder {
   border-radius: 20px !important;
@@ -54,7 +54,14 @@
 
 @media screen and (max-width: 480px) {
   .rightSideContainer {
-    display: none !important;
+  }
+
+  .bgShadow {
+    width: 23rem !important;
+    box-shadow: 2px 2px 40px -2px rgba(0, 0, 0, 0.74);
+    -webkit-box-shadow: 2px 2px 40px -2px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: 2px 2px 40px -2px rgba(0, 0, 0, 0.74);
+    border-radius: 25px !important;
   }
 }
 
@@ -65,7 +72,7 @@
   border: 1px solid #ccc;
 }
 .inputField::placeholder {
-  color: #BBB;
+  color: #bbb;
 }
 
 /* .mGesWhite{
